@@ -2,72 +2,81 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css"/>
-<title>responsive photo gallery</title>
-<style type="text/css">
-.{
-    box-sizing:border-box;
-}
-.gallery{
-    border:10px solid yellow;
-}
-.gallery img{
-    width:100%;
-    height:auto;
+    <title>responsive photo gallery</title>
+    <style type="text/css">
+        .{
+            box-sizing:border-box;
+        }
+        .gallery {
+            border:10px solid yellow;
+        }
+        .gallery img {
+            width:100%;
+            height:auto;
 
-}
-.responsive{
-    padding: 0 6px;
-    float:left;
-    width:25%
-    }
+        }
+        .responsive {
+            padding: 0 6px;
+            float:left;
+            width:25%
+        }
 
-    .clearfix:after{
-        content:"";
-        display:table;
-        clear:both;
-    }
+        .clearfix:after {
+            content:"";
+            display:table;
+            clear:both;
+        }
 
-@media only screen and (max-width:700px){
-    .responsive{
-        width:49.9999%;
-        margin:6px 0;
-    }
-}
-@media only screen and(max-width:500px){
-    .responsive{
-        width:100%;
-    }
-}
+        @media only screen and (max-width:700px) {
+            .responsive{
+                width:49.9999%;
+                margin:6px 0;
+            }
+        }
+        @media only screen and(max-width:500px) {
+            .responsive{
+                width:100%;
+            }
+        }
 
-</style>
-
-    </head>
-        <body>
-<h1>My photo Gallery</h1>
-<div class="responsive">
-<div class="gallery">
-<a href="img/gallery1.jpg" target="_blank"><img src="img/gallery1.jpg" width="300" height="200"></a>
-</div>
-</div>
-<div class="responsive">
-<div class="gallery">
-<a href="img/gallery2.jpg" target="_blank"><img src="img/gallery2.jpg" width="300" height="200"></a>
-</div>
-</div>
-<div class="responsive">
-<div class="gallery">
-<a href="img/kkk.jpg" target="_blank"><img src="img/kkk.jpg" width="300" height="200"></a>
-</div>
-</div>
-<div class="responsive">
-<div class="gallery">
-<a href="img/picture.jpg" target="_blank"><img src="img/picture.jpg" width="300" height="200"></a>
-</div>
-</div>
-<div class="responsive">
-<div class="gallery">
-<a href="img/piza2.jpg" target="_blank"><img src="img/piza2.jpg width="300" height="200""></a>
-</div>
-</div>
+    </style>
+</head>
+ <body>
+    <h1>My photo Gallery</h1>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="img/gallery1.jpg" target="_blank">
+                <img src="img/gallery1.jpg" width="300" height="200">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="img/gallery2.jpg" target="_blank">
+                <img src="img/gallery2.jpg" width="300" height="200">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="img/kkk.jpg" target="_blank">
+                <img src="img/kkk.jpg" width="300" height="200"
+            ></a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="img/picture.jpg" target="_blank">
+                <img src="img/picture.jpg" width="300" height="200">
+            </a>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a href="img/piza2.jpg" target="_blank">
+                <img src="img/piza2.jpg width="300" height="200">
+            </a>
+        </div>
+    </div>
 </body>
 </html>
