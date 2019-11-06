@@ -24,7 +24,7 @@
                 if (x == "") {
                     alert("name must be filled out");
                     return false;
-                    document.getElementById(user1).value=x;
+                    document.getElementById().value=x;
                     document.getElementById("display").innerHTML = x;
                     
                 var x =document.form["myForm"]["e-mail"].value;
