@@ -28,11 +28,11 @@ td:empty:after {
     <th rowspan="2">Date of birth<br>purchase</th>
     <th rowspan="2">Breed type</th>
     <th colspan="4">Calving period<br>month</th>
-    <th colspan="4">lactation period</th>
+    <!-- <th colspan="4">lactation period</th>
     <th colspan="4">Calf get birth</th>
     <th colspan="4">Yeild per lactation<br>period</th>
     <th colspan="2">Age when<br>culled</th>
-    <th colspan="2">Date of sales/<br>Death</th>
+    <th colspan="2">Date of sales/<br>Death</th> -->
 
   </tr>
   <tr>
@@ -40,18 +40,18 @@ td:empty:after {
     <td>2nd cl</td>
     <td>3rd cl</td>
     <td>4th cl</td>
-    <td>1st cl</td>
+    <!-- <td>1st cl</td>
     <td>2nd cl</td>
     <td>3rd cl</td>
     <td>4th cl</td>
     <td>1st cl</td>
     <td>2nd cl</td>
     <td>3rd cl</td>
-    <td>4th cl</td>
-    <td>1st cl<br>Average<br>lt/day</td>
+    <td>4th cl</td> -->
+    <!-- <td>1st cl<br>Average<br>lt/day</td>
     <td>2nd cl<br>Average<br>lt/day</td>
     <td>3rd cl<br>Average<br>lt/day</td>
-    <td>4th cl<br>Average<br>lt/day</td>
+    <td>4th cl<br>Average<br>lt/day</td> -->
 
   </tr>
   <!-- <tr>
@@ -61,11 +61,50 @@ td:empty:after {
     <td>4th cl</td>
   </tr> -->
 
-<!-- 
+ 
   <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-  </tr> -->
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>

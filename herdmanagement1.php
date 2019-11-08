@@ -168,6 +168,40 @@
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+}
+
+th {
+  vertical-align: top;
+}
+
+td:empty:after {
+  content: "\00a0"; /* HTML entity of &nbsp; */
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+}
+
+th {
+  vertical-align: top;
+}
+
+td:empty:after {
+  content: "\00a0"; /* HTML entity of &nbsp; */
+}
   </style>
 <body>
           <!-- navbar -->
@@ -216,16 +250,16 @@
         </a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#"id="docDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> >
-          <i class="fas fa-sitemap"></i>
-          <span>Herd Management</span>
-        </a>
-        <div class="dropdown-menu" aria-labelledby="docDropdown">
-            <a class="dropdown-item" href="herdmanagement1.php">xyz  </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Treatment History</a>
-          </div>
-      </li> 
+          <a class="nav-link dropdown-toggle" href="#" id="docDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> >
+            <i class="fas fa-sitemap"></i>
+            <span>Herd Management</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="docDropdown">
+              <a class="dropdown-item" href="herdmanagement1.php">xyz  </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Treatment History</a>
+            </div>
+        </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="docDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-user-md"></i>
@@ -271,7 +305,8 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Today's Appointments</a>
           <div class="dropdown-divider"></div>
-z          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Upcoming Appointments</a>
+          <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Add Appointments</a>
         </div>
       </li>
@@ -316,7 +351,212 @@ z          <div class="dropdown-divider"></div>
         </div>
       </li>
     </ul>
-  </div>
+    <div id="content-wrapper">
+    <div class="jumbotron jumbotron-fluid">
+        <div class ="container-fluid">
+            <table>
+              <tr>
+                <th rowspan="2">Name<br>ID NO</th>
+                <th rowspan="2">Date of birth<br>purchase</th>
+                <th rowspan="2">Breed type</th>
+                <th colspan="4">Calving period<br>month</th>
+                <!-- <th colspan="4">lactation period</th>
+                <th colspan="4">Calf get birth</th>
+                <th colspan="4">Yeild per lactation<br>period</th>
+                <th colspan="2">Age when<br>culled</th>
+                <th colspan="2">Date of sales/<br>Death</th> -->
+            
+              </tr>
+              <tr>
+                <td>1st cl</td>
+                <td>2nd cl</td>
+                <td>3rd cl</td>
+                <td>4th cl</td>
+                <!-- <td>1st cl</td>
+                <td>2nd cl</td>
+                <td>3rd cl</td>
+                <td>4th cl</td>
+                <td>1st cl</td>
+                <td>2nd cl</td>
+                <td>3rd cl</td>
+                <td>4th cl</td> -->
+                <!-- <td>1st cl<br>Average<br>lt/day</td>
+                <td>2nd cl<br>Average<br>lt/day</td>
+                <td>3rd cl<br>Average<br>lt/day</td>
+                <td>4th cl<br>Average<br>lt/day</td> -->
+            
+              </tr>
+              <!-- <tr>
+                <td>1st cl</td>
+                <td>2nd cl</td>
+                <td>3rd cl</td>
+                <td>4th cl</td>
+              </tr> -->
+            
+             
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+           
+        </div>
+    </div>
+
+  <div class="jumbotron jumbotron-fluid">
+      <div class ="container-fluid">
+          <table>
+              <tr>
+                  <th rowspan="2">Name<br>ID NO</th>
+                  <th rowspan="2">Date of birth<br>purchase</th>
+                  <th rowspan="2">Breed type</th>
+                  <th rowspan="2">Date of sales<br>/Death</th>
+              </tr>
+              <!-- <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr> -->
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table> 
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+          <div class ="container-fluid">
+              <table>
+                  <tr>
+                      <th rowspan="2">Name<br>ID NO</th>
+                      <th colspan="4">calf get birth period</th>
+                      <th colspan="4">Lactation period</th>
+                      <th colspan="2">Age when culled</th>
+                  </tr>
+                  <tr>
+                  <td>1st cl</td>
+                  <td>2nd cl</td>
+                  <td>3rd cl</td>
+                  <td>4th cl</td>
+                  <td>1st cl</td>
+                  <td>2nd cl</td>
+                  <td>3rd cl</td>
+                  <td>4th cl</td>
+                  </tr>
+                  
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+              </table>
+    </div></div>   
+      
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
