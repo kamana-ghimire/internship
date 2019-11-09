@@ -254,11 +254,6 @@ td:empty:after {
             <i class="fas fa-sitemap"></i>
             <span>Herd Management</span>
           </a>
-          <div class="dropdown-menu" aria-labelledby="docDropdown">
-              <a class="dropdown-item" href="herdmanagement1.php">xyz  </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Treatment History</a>
-            </div>
         </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="docDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -351,211 +346,85 @@ td:empty:after {
         </div>
       </li>
     </ul>
-    <div id="content-wrapper">
-    <div class="jumbotron jumbotron-fluid">
-        <div class ="container-fluid">
-            <table>
-              <tr>
-                <th rowspan="2">Name<br>ID NO</th>
-                <th rowspan="2">Date of birth<br>purchase</th>
-                <th rowspan="2">Breed type</th>
-                <th colspan="4">Calving period<br>month</th>
-                <!-- <th colspan="4">lactation period</th>
-                <th colspan="4">Calf get birth</th>
-                <th colspan="4">Yeild per lactation<br>period</th>
-                <th colspan="2">Age when<br>culled</th>
-                <th colspan="2">Date of sales/<br>Death</th> -->
-            
-              </tr>
-              <tr>
-                <td>1st cl</td>
-                <td>2nd cl</td>
-                <td>3rd cl</td>
-                <td>4th cl</td>
-                <!-- <td>1st cl</td>
-                <td>2nd cl</td>
-                <td>3rd cl</td>
-                <td>4th cl</td>
-                <td>1st cl</td>
-                <td>2nd cl</td>
-                <td>3rd cl</td>
-                <td>4th cl</td> -->
-                <!-- <td>1st cl<br>Average<br>lt/day</td>
-                <td>2nd cl<br>Average<br>lt/day</td>
-                <td>3rd cl<br>Average<br>lt/day</td>
-                <td>4th cl<br>Average<br>lt/day</td> -->
-            
-              </tr>
-              <!-- <tr>
-                <td>1st cl</td>
-                <td>2nd cl</td>
-                <td>3rd cl</td>
-                <td>4th cl</td>
-              </tr> -->
-            
-             
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </table>
-           
-        </div>
-    </div>
-
-  <div class="jumbotron jumbotron-fluid">
-      <div class ="container-fluid">
-          <table>
-              <tr>
-                  <th rowspan="2">Name<br>ID NO</th>
-                  <th rowspan="2">Date of birth<br>purchase</th>
-                  <th rowspan="2">Breed type</th>
-                  <th rowspan="2">Date of sales<br>/Death</th>
-              </tr>
-              <!-- <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr> -->
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </table> 
+  </div>
+  <div id="content-wrapper" style="margin-top: -43rem;width:60rem;">
+      <div class="row">
+          <div class="col-xl-6" style="margin-left:17rem;height:200px;margin-top:2rem;">
+            <div class="card text-white bg-primary o-hidden h-100">
+              <div class="card-body">
+                <div class="card-body-icon">
+                  <i class="fas fa-user-md"></i>
+                </div>
+                <div class="mr-5"><h2>Doctors</h2></div>
+              </div>
+              <a class="card-footer text-white clearfix small z-1" href="model1.php">
+                <span class="float-left"><h4>view details</h4></span>
+                <span class="float-right">
+                  <i class="fas fa-angle-right"></i>
+                </span>
+              </a>
+              </div>
+            </div> 
+          </div>
+          <div class="col-xl-6" style="margin-left:17rem;height:200px;margin-top:6rem;">
+              <div class="card text-white bg-primary o-hidden h-100">
+                <div class="card-body">
+                  <div class="card-body-icon">
+                    <i class="fas fa-user-md"></i>
+                  </div>
+                  <div class="mr-5"><h2>Doctors</h2></div>
+                </div>
+                <a class="card-footer text-white clearfix small z-1" href="model2.php">
+                  <span class="float-left"><h4>view details</h4></span>
+                  <span class="float-right">
+                    <i class="fas fa-angle-right"></i>
+                  </span>
+                </a>
+                </div>
+              </div>
+          </div>
         </div>
       </div>
-      <div class="jumbotron jumbotron-fluid">
-          <div class ="container-fluid">
-              <table>
-                  <tr>
-                      <th rowspan="2">Name<br>ID NO</th>
-                      <th colspan="4">calf get birth period</th>
-                      <th colspan="4">Lactation period</th>
-                      <th colspan="2">Age when culled</th>
-                  </tr>
-                  <tr>
-                  <td>1st cl</td>
-                  <td>2nd cl</td>
-                  <td>3rd cl</td>
-                  <td>4th cl</td>
-                  <td>1st cl</td>
-                  <td>2nd cl</td>
-                  <td>3rd cl</td>
-                  <td>4th cl</td>
-                  </tr>
-                  
-                  <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                  </tr>
-                  <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                  </tr>
-                  <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                  </tr>
-                  <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                  </tr>
-              </table>
-    </div></div>   
+      <div id="content-wrapper" style="margin-top: -33rem;width:60rem;float:right;">
+          <div class="row">
+              <div class="col-xl-6" style="margin-left:28rem;height:200px;margin-top:2rem;">
+                <div class="card text-white bg-primary o-hidden h-100">
+                  <div class="card-body">
+                    <div class="card-body-icon">
+                      <i class="fas fa-user-md"></i>
+                    </div>
+                    <div class="mr-5"><h2>Doctors</h2></div>
+                  </div>
+                  <a class="card-footer text-white clearfix small z-1" href="model3.php">
+                    <span class="float-left"><h4>view details</h4></span>
+                    <span class="float-right">
+                      <i class="fas fa-angle-right"></i>
+                    </span>
+                  </a>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-xl-6" style="margin-left:28rem;height:200px;margin-top:6rem;">
+                  <div class="card text-white bg-primary o-hidden h-100">
+                    <div class="card-body">
+                      <div class="card-body-icon">
+                        <i class="fas fa-user-md"></i>
+                      </div>
+                      <div class="mr-5"><h2>Doctors</h2></div>
+                    </div>
+                    <a class="card-footer text-white clearfix small z-1" href="hospitaldoclist.php">
+                      <span class="float-left"><h4>view details</h4></span>
+                      <span class="float-right">
+                        <i class="fas fa-angle-right"></i>
+                      </span>
+                    </a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>    
+          
+
       
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

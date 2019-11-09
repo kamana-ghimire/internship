@@ -12,7 +12,6 @@
     <title>Admin</title>
 </head>
 <body>
-  <body>
     <!-- navbar -->
 <div>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark static-top">
@@ -154,30 +153,81 @@
     <a class="dropdown-item" href="#">Add Donors</a>
   </div>
 </li>
+</ul>
+<div id="content-wrapper">
+    <div class="jumbotron jumbotron-fluid">
+        <div class ="container-fluid">
+        <table>
+    <tr>
+        <th rowspan="2">Name<br>ID NO</th>
+        <th colspan="4">calf get birth period</th>
+        <th colspan="4">Lactation period</th>
+        <th colspan="2">Age when culled</th>
+    </tr>
+    <tr>
+    <td>1st cl</td>
+    <td>2nd cl</td>
+    <td>3rd cl</td>
+    <td>4th cl</td>
+    <td>1st cl</td>
+    <td>2nd cl</td>
+    <td>3rd cl</td>
+    <td>4th cl</td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
-<script>
-  (function($) {
-"use strict"; // Start of use strict
-// Toggle the side navigation
-$("#sidebarToggle").on('click', function(e) {
-e.preventDefault();
-$("body").toggleClass("sidebar-toggled");
-$(".sidebar").toggleClass("toggled");
-});
-// Prevent the content wrapper from scrolling when the fixed side navigation hovered over
-$('body.fixed-nav .sidebar').on('mousewheel DOMMouseScroll wheel', function(e) {
-if ($(window).width() > 768) {
-var e0 = e.originalEvent,
-  delta = e0.wheelDelta || -e0.detail;
-this.scrollTop += (delta < 0 ? 1 : -1) * 30;
-e.preventDefault();
-}
-});
-})(jQuery); // End of use strict
-</script>
+</div>
+</div>
+<button type="button" class="btn btn-outline-light btn-dark button"style="margin-left:16rem;margin-top:-39rem">
+    Add New</button>
 </body>
-
 </html>

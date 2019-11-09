@@ -40,28 +40,7 @@ td:empty:after {
     <td>2nd cl</td>
     <td>3rd cl</td>
     <td>4th cl</td>
-    <!-- <td>1st cl</td>
-    <td>2nd cl</td>
-    <td>3rd cl</td>
-    <td>4th cl</td>
-    <td>1st cl</td>
-    <td>2nd cl</td>
-    <td>3rd cl</td>
-    <td>4th cl</td> -->
-    <!-- <td>1st cl<br>Average<br>lt/day</td>
-    <td>2nd cl<br>Average<br>lt/day</td>
-    <td>3rd cl<br>Average<br>lt/day</td>
-    <td>4th cl<br>Average<br>lt/day</td> -->
-
   </tr>
-  <!-- <tr>
-    <td>1st cl</td>
-    <td>2nd cl</td>
-    <td>3rd cl</td>
-    <td>4th cl</td>
-  </tr> -->
-
- 
   <tr>
     <td></td>
     <td></td>
