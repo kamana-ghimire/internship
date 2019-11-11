@@ -63,16 +63,12 @@
     <span>Herd Management</span>
   </a>
 </li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="docDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-user-md"></i>
-    <span>Feed and Feeding<br>Management</span>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="docDropdown">
-    <a class="dropdown-item" href="#">List of Doctors</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Treatment History</a>
-  </div>
+<li class="nav-item active">
+    <a class="nav-link" href="feed1.php">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span>Feed and Feeding<br>Management</span>
+    </a>
+
 </li>
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="scheduleDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -157,20 +153,45 @@
 <div id="content-wrapper">
     <div class="jumbotron jumbotron-fluid">
         <div class ="container-fluid">
-        <table>
-    <tr>
-        <th rowspan="2">Name<br>ID NO</th>
-        <th rowspan="2">Date of birth<br>purchase</th>
-        <th rowspan="2">Breed type</th>
-        <th rowspan="2">Date of sales<br>/Death</th>
-    </tr>
-    <!-- <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr> -->
+<table>
   <tr>
+    <th rowspan="2">Calf ID number</th>
+    <th rowspan="2">Date of birth</th>
+    <th rowspan="2">sex</th>
+    <th colspan="4">Weight(kg)</th>
+    <th colspan="4">Heart Girth</th>
+    <th colspan="3">Age(weaks)</th>
+    <!-- <th colspan="4">lactation period</th>
+    <th colspan="4">Calf get birth</th>
+    <th colspan="4">Yeild per lactation<br>period</th>
+    <th colspan="2">Age when<br>culled</th>
+    <th colspan="2">Date of sales/<br>Death</th> -->
+
+  </tr>
+  <tr>
+    <td>At birth</td>
+    <td>At weaning</td>
+    <td>At service</td>
+    <td>At calving</td>
+    <td>At birth</td>
+    <td>At weaning</td>
+    <td>At service</td>
+    <td>At calving</td>
+    <td>At weaning</td>
+    <td>At service</td>
+    <td>At calving</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -181,30 +202,77 @@
     <td></td>
     <td></td>
     <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
 </table>
+        </div>
+    </div>
 </div>
 </div>
-</div>
-</div>
-<button type="button" class="btn btn-outline-light btn-dark button" style="margin-left:16rem;margin-top:-39rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
+
+<button type="button" class="btn btn-outline-light btn-dark button" style="margin-left:16rem;margin-top:-42rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
      <div class="modal fade" id="addanimalid" tabindex="-1" role="dialog" aria-labelledby="deptModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="deptModalLabel">Animals identification</h5>
+            <h5 class="modal-title" id="deptModalLabel1">Animals identification</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -214,23 +282,15 @@
               <form action="">
                 <div class="form-group">
                   <label for="departtname">Date of birth/<br>purchase</label>
-                  <input type="text" id="departtname" name="dname" class="form-control">
+                  <input type="text" id="departtname1" name="dname" class="form-control">
                 </div>
                 <div class="form-group">
-                  <label for="departtname">1st Calving period</label>
-                  <input type="text" id="calving" name="dname" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label for="departtname">2nd Calving period</label>
-                  <input type="text" id="calving" name="dname" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label for="departtname">3rd Calving period</label>
-                  <input type="text" id="calving" name="dname" class="form-control">
+                  <label for="departtname">Date of sales/Death</label>
+                  <input type="text" id="calving2" name="dname" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="departtdesc">Type of breed</label>
-                    <textarea class="form-control" id="departtdesc" rows="3" rows="10"></textarea>
+                    <input type="text" id="calving1" name="dname" class="form-control">
                 </div>
               </form>
             </div>
@@ -243,7 +303,8 @@
       </div>
     </div>
 
-    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+     
+                <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
     <script>

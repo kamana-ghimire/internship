@@ -157,20 +157,38 @@
 <div id="content-wrapper">
     <div class="jumbotron jumbotron-fluid">
         <div class ="container-fluid">
+
         <table>
-    <tr>
-        <th rowspan="2">Name<br>ID NO</th>
-        <th rowspan="2">Date of birth<br>purchase</th>
-        <th rowspan="2">Breed type</th>
-        <th rowspan="2">Date of sales<br>/Death</th>
-    </tr>
-    <!-- <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr> -->
   <tr>
+    <th colspan="8">Yeild per lactation period</th>
+  
+
+  </tr>
+  <tr>
+    <th colspan="2">1st cl</th>
+    <th colspan="2">2nd cl</td>
+    <th colspan="2">3rd cl</th>
+    <th colspan="2">4th cl</td>
+  
+    
+    
+  </tr>
+  
+  <tr>
+    <td>Average LT/Day</td>
+    <td>Total yield lt</td>
+    <td>Average LT/Day</td>
+    <td>Total yield lt</td>
+    <td>Average LT/Day</td>
+    <td>Total yield lt</td>
+    <td>Average LT/Day</td>
+    <td>Total yield lt</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -181,8 +199,6 @@
     <td></td>
     <td></td>
     <td></td>
-  </tr>
-  <tr>
     <td></td>
     <td></td>
     <td></td>
@@ -193,18 +209,47 @@
     <td></td>
     <td></td>
     <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+
   </tr>
+  <tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
 </table>
-</div>
-</div>
-</div>
-</div>
-<button type="button" class="btn btn-outline-light btn-dark button" style="margin-left:16rem;margin-top:-39rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+     <button type="button" class="btn btn-outline-light btn-dark button" style="margin-left:16rem;margin-top:-39rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
      <div class="modal fade" id="addanimalid" tabindex="-1" role="dialog" aria-labelledby="deptModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="deptModalLabel">Animals identification</h5>
+            <h5 class="modal-title" id="deptModalLabel1">Animals identification</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -214,23 +259,15 @@
               <form action="">
                 <div class="form-group">
                   <label for="departtname">Date of birth/<br>purchase</label>
-                  <input type="text" id="departtname" name="dname" class="form-control">
+                  <input type="text" id="departtname1" name="dname" class="form-control">
                 </div>
                 <div class="form-group">
-                  <label for="departtname">1st Calving period</label>
-                  <input type="text" id="calving" name="dname" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label for="departtname">2nd Calving period</label>
-                  <input type="text" id="calving" name="dname" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label for="departtname">3rd Calving period</label>
-                  <input type="text" id="calving" name="dname" class="form-control">
+                  <label for="departtname">Date of sales/Death</label>
+                  <input type="text" id="calving2" name="dname" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="departtdesc">Type of breed</label>
-                    <textarea class="form-control" id="departtdesc" rows="3" rows="10"></textarea>
+                    <input type="text" id="calving1" name="dname" class="form-control">
                 </div>
               </form>
             </div>
@@ -243,7 +280,8 @@
       </div>
     </div>
 
-    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+     
+                <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
     <script>

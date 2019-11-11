@@ -12,7 +12,6 @@
     <title>Admin</title>
 </head>
 <body>
-  <body>
     <!-- navbar -->
 <div>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark static-top">
@@ -70,11 +69,16 @@
       <span>Feed and Feeding<br>Management</span>
     </a>
 </li>
-<li class="nav-item active">
-  <a class="nav-link" href="young1.php">
-    <i class="fas fa-fw fa-tachometer-alt"></i>
-    <span>Young stock<br>Management</span>
-  </a>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="scheduleDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fas fa-calendar-check"></i>
+      <span>Young stock Management</span>
+    </a>
+    <div class="dropdown-menu" aria-labelledby="scheduleDropdown">
+      <a class="dropdown-item" href="#">All schedules of the day</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Holidays</a>
+    </div>
   </li>
 <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" href="#" id="patientsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -144,30 +148,178 @@
     <a class="dropdown-item" href="#">Add Donors</a>
   </div>
 </li>
-</div>
+</ul>
+<div id="content-wrapper">
+    <div class="jumbotron jumbotron-fluid">
+        <div class ="container-fluid">
+<table>
+  <tr>
+    <th rowspan="2">Type of<br>Feed</th>
+    <th rowspan="2">Unite of<br>measurement</th>
+    <th colspan="8">Feed In take per day per cattle</th>
+    <!-- <th colspan="4">lactation period</th>
+    <th colspan="4">Calf get birth</th>
+    <th colspan="4">Yeild per lactation<br>period</th>
+    <th colspan="2">Age when<br>culled</th>
+    <th colspan="2">Date of sales/<br>Death</th> -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
-<script>
-  (function($) {
-"use strict"; // Start of use strict
-// Toggle the side navigation
-$("#sidebarToggle").on('click', function(e) {
-e.preventDefault();
-$("body").toggleClass("sidebar-toggled");
-$(".sidebar").toggleClass("toggled");
-});
-// Prevent the content wrapper from scrolling when the fixed side navigation hovered over
-$('body.fixed-nav .sidebar').on('mousewheel DOMMouseScroll wheel', function(e) {
-if ($(window).width() > 768) {
-var e0 = e.originalEvent,
-  delta = e0.wheelDelta || -e0.detail;
-this.scrollTop += (delta < 0 ? 1 : -1) * 30;
-e.preventDefault();
-}
-});
-})(jQuery); // End of use strict
-</script>
+  </tr>
+  <tr>
+    <th colspan="2">Cattle 1</th>
+    <th colspan="2">Cattle 2</td>
+    <th colspan="2">Cattle 3</th>
+    <th colspan="2">Cattle 4</td>
+  
+    
+    
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td></td>
+    <th>Name/ID</th>
+    <th>Quantityt</th>
+    <th>hName/ID</th>
+    <th>Quantity</th>
+    <th>Name/ID</th>
+    <th>Quantity</th>
+    <th>Name/ID</th>
+    <th>Quantity</th>
+    
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    
+
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+</table>
+<button type="button" class="btn btn-outline-light btn-dark button" style="margin-top:2rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
+     <div class="modal fade" id="addanimalid" tabindex="-1" role="dialog" aria-labelledby="deptModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="deptModalLabel1">Animals identification</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <form action="">
+                <div class="form-group">
+                  <label for="departtname">Date of birth/<br>purchase</label>
+                  <input type="text" id="departtname1" name="dname" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="departtname">Date of sales/Death</label>
+                  <input type="text" id="calving2" name="dname" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="departtdesc">Type of breed</label>
+                    <input type="text" id="calving1" name="dname" class="form-control">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     
+                <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
+    <script>
+      $(document).ready(function() {
+    $('#model1').DataTable({     
+      "scrollY": "200px",
+      "scrollCollapse": true,
+      "paging": false,
+      "scrollX": true
+                      });
+                        } );
+        (function($) {
+      "use strict"; // Start of use strict
+      // Toggle the side navigation
+      $("#sidebarToggle").on('click', function(e) {
+        e.preventDefault();
+        $("body").toggleClass("sidebar-toggled");
+        $(".sidebar").toggleClass("toggled");
+      });
+      // Prevent the content wrapper from scrolling when the fixed side navigation hovered over
+      $('body.fixed-nav .sidebar').on('mousewheel DOMMouseScroll wheel', function(e) {
+        if ($(window).width() > 768) {
+          var e0 = e.originalEvent,
+            delta = e0.wheelDelta || -e0.detail;
+          this.scrollTop += (delta < 0 ? 1 : -1) * 30;
+          e.preventDefault();
+        }
+        });
+        })(jQuery); // End of use strict
+      </script>
 </body>
-
 </html>

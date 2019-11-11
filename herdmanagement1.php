@@ -355,7 +355,7 @@ td:empty:after {
                 <div class="card-body-icon">
                   <i class="fas fa-user-md"></i>
                 </div>
-                <div class="mr-5"><h2>Doctors</h2></div>
+                <div class="mr-5"><h2>Animals Identification</h2></div>
               </div>
               <a class="card-footer text-white clearfix small z-1" href="model1.php">
                 <span class="float-left"><h4>view details</h4></span>
@@ -372,7 +372,7 @@ td:empty:after {
                   <div class="card-body-icon">
                     <i class="fas fa-user-md"></i>
                   </div>
-                  <div class="mr-5"><h2>Doctors</h2></div>
+                  <div class="mr-5"><h2>Animals Identification</h2></div>
                 </div>
                 <a class="card-footer text-white clearfix small z-1" href="model2.php">
                   <span class="float-left"><h4>view details</h4></span>
@@ -393,7 +393,7 @@ td:empty:after {
                     <div class="card-body-icon">
                       <i class="fas fa-user-md"></i>
                     </div>
-                    <div class="mr-5"><h2>Doctors</h2></div>
+                    <div class="mr-5"><h2>Animals Identification</h2></div>
                   </div>
                   <a class="card-footer text-white clearfix small z-1" href="model3.php">
                     <span class="float-left"><h4>view details</h4></span>
@@ -410,9 +410,9 @@ td:empty:after {
                       <div class="card-body-icon">
                         <i class="fas fa-user-md"></i>
                       </div>
-                      <div class="mr-5"><h2>Doctors</h2></div>
+                      <div class="mr-5"><h2>Animals Identification</h2></div>
                     </div>
-                    <a class="card-footer text-white clearfix small z-1" href="hospitaldoclist.php">
+                    <a class="card-footer text-white clearfix small z-1" href="model4.php">
                       <span class="float-left"><h4>view details</h4></span>
                       <span class="float-right">
                         <i class="fas fa-angle-right"></i>

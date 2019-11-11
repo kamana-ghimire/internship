@@ -24,63 +24,66 @@ td:empty:after {
 <body>
 <table>
   <tr>
-    <th colspan="8">Yeild per lactation period</th>
-  
+    <th rowspan="2">Cow Name<br>ID NO</th>
+    <th rowspan="2">Lactation start<br>day</th>
+    <th rowspan="2">Type Breed<br>type</th>
+    <th colspan="8">Milk yield per<br>day in liter</th>
+    <!-- <th colspan="4">lactation period</th>
+    <th colspan="4">Calf get birth</th>
+    <th colspan="4">Yeild per lactation<br>period</th>
+    <th colspan="2">Age when<br>culled</th>
+    <th colspan="2">Date of sales/<br>Death</th> -->
 
   </tr>
-  <tr>
-    <th colspan="2">1st cl</th>
-    <th colspan="2">2nd cl</td>
-    <th colspan="2">3rd cl</th>
-    <th colspan="2">4th cl</td>
-  
-    
-    
-  </tr>
-  
-  <tr>
-    <td>Average LT/Day</td>
-    <td>Total yield lt</td>
-    <td>Average LT/Day</td>
-    <td>Total yield lt</td>
-    <td>Average LT/Day</td>
-    <td>Total yield lt</td>
-    <td>Average LT/Day</td>
-    <td>Total yield lt</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+  <th colspan="2">Date</th>
+    <th colspan="2">Date</td>
+    <th colspan="2">Date</th>
+    <th colspan="2">Date</td>
+</tr>
 
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
   <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
     <td></td>
     <td></td>
     <td></td>
@@ -100,7 +103,8 @@ td:empty:after {
     <td></td>
     <td></td>
     <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
-  <tr>
 </table>
-
