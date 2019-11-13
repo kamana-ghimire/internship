@@ -69,16 +69,11 @@
       <span>Feed and Feeding<br>Management</span>
     </a>
 </li>
-<li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="scheduleDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <i class="fas fa-calendar-check"></i>
-      <span>Young stock Management</span>
+<<li class="nav-item active">
+    <a class="nav-link" href="feed1.php">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span>Young stock<br>Management</span>
     </a>
-    <div class="dropdown-menu" aria-labelledby="scheduleDropdown">
-      <a class="dropdown-item" href="#">All schedules of the day</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Holidays</a>
-    </div>
   </li>
 <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" href="#" id="patientsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

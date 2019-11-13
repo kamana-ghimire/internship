@@ -246,108 +246,62 @@ td:empty:after {
       <li class="nav-item active">
         <a class="nav-link" href="dashboard.php">
           <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span>
+            <span>Dashboard</span>
         </a>
       </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="docDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a> >
-            <i class="fas fa-sitemap"></i>
+      <li class="nav-item active">
+        <a class="nav-link" href="dashboard.php">
+          <i class="fas fa-sitemap"></i>
             <span>Herd Management</span>
-          </a>
-        </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="docDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-user-md"></i>
-          <span>Feed and Feeding <br>Management</span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="docDropdown">
-          <a class="dropdown-item" href="#">List of Doctors</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Treatment History</a>
-        </div>
       </li>
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="scheduleDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-calendar-check"></i>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          <i class="fas fa-sitemap"></i>
+            <span>Feed and Feeding<br>Management</span>
+        </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          <i class="fas fa-sitemap"></i>
             <span>Young stock<br>Management</span>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="scheduleDropdown">
-            <a class="dropdown-item" href="#">All schedules of the day</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Holidays</a>
-          </div>
-        </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="patientsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-user-injured"></i>
-          <span>Milk Production</span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="patientsDropdown">
-          <a class="dropdown-item" href="#">List of Patients</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Patient Cases</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Add Patients</a>
-        </div>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="appointmentsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-stethoscope"></i>
-          <span>Fertility Management</span>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          <i class="fas fa-sitemap"></i>
+            <span>Milk production</span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="appointmentsDropdown">
-          <a class="dropdown-item" href="#">All Appointments</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Today's Appointments</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Upcoming Appointments</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Add Appointments</a>
-        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">
+          <i class="fas fa-sitemap"></i>
+            <span>Breeding Management</span>
+        </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">
           <i class="fas fa-prescription"></i>
-          <span>Health Management</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="labtestDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-notes-medical"></i>
-          <span>Housing and manure<br>Management</span>
+          <span>Health Management</span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="labtestDropdown">
-          <a class="dropdown-item" href="#">Lab Reports</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Add Lab Reports</a>
-        </div>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="medicineDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-briefcase-medical"></i>
-          <span>Milk processing and <br>Management</span>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-prescription"></i>
+          <span>Milk processing and<br>marketing</span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="medicineDropdown">
-          <a class="dropdown-item" href="#">Medicine List</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Add Medicine</a>
-        </div>
+        
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="donorDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-user-friends"></i>
-          <span>Dairy farm <br>Management</span>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <i class="fas fa-prescription"></i>
+          <span>Dairy farm record</span>
         </a>
-        <div class="dropdown-menu" aria-labelledby="donorDropdown">
-          <a class="dropdown-item" href="#">List of Donors</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Blood Bank</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Add Donors</a>
-        </div>
+      
       </li>
     </ul>
   </div>
-  <div id="content-wrapper" style="margin-top: -43rem;width:60rem;">
+  <div id="content-wrapper" style="margin-top: -37rem;width:60rem;">
       <div class="row">
           <div class="col-xl-6" style="margin-left:17rem;height:200px;margin-top:2rem;">
             <div class="card text-white bg-primary o-hidden h-100">

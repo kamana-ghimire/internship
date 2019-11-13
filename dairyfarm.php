@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -70,23 +70,44 @@
     </a>
 
 </li>
-<li class="nav-item active">
-    <a class="nav-link" href="feed1.php">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Young stock<br>Management</span>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="scheduleDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fas fa-calendar-check"></i>
+      <span>Young stock Management</span>
     </a>
+    <div class="dropdown-menu" aria-labelledby="scheduleDropdown">
+      <a class="dropdown-item" href="#">All schedules of the day</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Holidays</a>
+    </div>
   </li>
-  <li class="nav-item active">
-    <a class="nav-link" href="feed1.php">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Milk production</span>
-    </a>
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="patientsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fas fa-user-injured"></i>
+    <span>Milk production</span>
+  </a>
+  <div class="dropdown-menu" aria-labelledby="patientsDropdown">
+    <a class="dropdown-item" href="#">List of Patients</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Patient Cases</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Add Patients</a>
+  </div>
 </li>
 <li class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" href="#" id="appointmentsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <i class="fas fa-stethoscope"></i>
     <span>Fertility management</span>
   </a>
+  <div class="dropdown-menu" aria-labelledby="appointmentsDropdown">
+    <a class="dropdown-item" href="#">All Appointments</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Today's Appointments</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Upcoming Appointments</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Add Appointments</a>
+  </div>
 </li>
 <li class="nav-item">
   <a class="nav-link" href="#">
@@ -133,102 +154,76 @@
     <div class="jumbotron jumbotron-fluid">
         <div class ="container-fluid">
 <table>
-  <tr>
-    <th rowspan="3">Cow Name<br>ID NO</th>
-    <th rowspan="3">Lactation start<br>day</th>
-    <th rowspan="3">Type Breed<br>type</th>
-    <th colspan="8">Milk yield per<br>day in liter</th>
-    <!-- <th colspan="4">lactation period</th>
-    <th colspan="4">Calf get birth</th>
-    <th colspan="4">Yeild per lactation<br>period</th>
-    <th colspan="2">Age when<br>culled</th>
-    <th colspan="2">Date of sales/<br>Death</th> -->
+<tr>
+        <th rowspan="2"> Type of<br>products</th>
+        <th colspan="3"> janurary</th>
+        <th colspan="3">Februrary</th>
+        <th colspan="3"> March</th>
+        <th colspan="3">April</th>
+        <th colspan="3"> May</th>
+        <th colspan="3">June</th>
+        <th colspan="3"> july</th>
+        <th colspan="3">August</th>
+        <th colspan="3"> September</th>
+        <th colspan="3">October</th>
+        <th colspan="3"> November</th>
+        <th colspan="3">December</th>
+        <th colspan="3">Total annual<br>sales</th>
+        
 
-  </tr>
-  <th colspan="2">Date</th>
-    <th colspan="2">Date</td>
-    <th colspan="2">Date</th>
-    <th colspan="2">Date</th>
+        
+        </tr>
+    </tr>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+        <th colspan="1">Quantity</th>
+        <th colspan="1">Unite<br>price</th>
+        <th colspan="1">Total sales</th>
+    </th>
+    <td></td>
+    <tr> <th colspan="1">Dairy product</th>
+    </tr>
+  <tr>
+     <th colspan="1">Whole milk</th>
 </tr>
-</tr>
-  <th colspan="1">Morning yield</th>
-    <th colspan="1">Evening yield</th>
-    <th colspan="1">Morning yield</th>
-    <th colspan="1">Evening yield</th>
-    <th colspan="1">Morning yield</th>
-    <th colspan="1">Evening yield</th>
-    <th colspan="1">Morning yield</th>
-    <th colspan="1">Evening yield</th>
-</tr>
+     <tr>
+        <th colspan="1">butter</th>
+    </tr>
 
-   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
+
 </table>
-<button type="button" class="btn btn-outline-light btn-dark button" style="margin-left:16rem;margin-top:-39rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
+<button type="button" class="btn btn-outline-light btn-dark button" style="margin-left:28rem;margin-top:1rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
      <div class="modal fade" id="addanimalid" tabindex="-1" role="dialog" aria-labelledby="deptModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -297,4 +292,4 @@
         })(jQuery); // End of use strict
       </script>
 </body>
-</html>
+</html>        
