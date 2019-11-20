@@ -208,7 +208,7 @@ td:empty:after {
   <div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark static-top">
       <a class="navbar-brand" href="#">
-              Logo
+              Farm House
       </a>
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -241,142 +241,52 @@ td:empty:after {
     </nav>
   </div>
   <div id="wrapper">
-    <!-- Sidebar -->
-    <ul class="sidebar navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="dashboard.php">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span>
-        </a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="dashboard.php">
-          <i class="fas fa-sitemap"></i>
-            <span>Herd Management</span>
-        </a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">
-          <i class="fas fa-sitemap"></i>
-            <span>Feed and Feeding<br>Management</span>
-        </a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">
-          <i class="fas fa-sitemap"></i>
-            <span>Young stock<br>Management</span>
-        </a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">
-          <i class="fas fa-sitemap"></i>
-            <span>Milk production</span>
-        </a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">
-          <i class="fas fa-sitemap"></i>
-            <span>Breeding Management</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fas fa-prescription"></i>
-          <span>Health Management</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fas fa-prescription"></i>
-          <span>Milk processing and<br>marketing</span>
-        </a>
-        
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <i class="fas fa-prescription"></i>
-          <span>Dairy farm record</span>
-        </a>
-      
-      </li>
-    </ul>
-  </div>
-  <div id="content-wrapper" style="margin-top: -37rem;width:60rem;">
-      <div class="row">
-          <div class="col-xl-6" style="margin-left:17rem;height:200px;margin-top:2rem;">
-            <div class="card text-white bg-primary o-hidden h-100">
-              <div class="card-body">
-                <div class="card-body-icon">
-                  <i class="fas fa-user-md"></i>
-                </div>
-                <div class="mr-5"><h2>Animals Identification</h2></div>
-              </div>
-              <a class="card-footer text-white clearfix small z-1" href="model1.php">
-                <span class="float-left"><h4>view details</h4></span>
-                <span class="float-right">
-                  <i class="fas fa-angle-right"></i>
-                </span>
-              </a>
-              </div>
-            </div> 
-          </div>
-          <div class="col-xl-6" style="margin-left:17rem;height:200px;margin-top:6rem;">
-              <div class="card text-white bg-primary o-hidden h-100">
-                <div class="card-body">
-                  <div class="card-body-icon">
-                    <i class="fas fa-user-md"></i>
-                  </div>
-                  <div class="mr-5"><h2>Animals Identification</h2></div>
-                </div>
-                <a class="card-footer text-white clearfix small z-1" href="model2.php">
-                  <span class="float-left"><h4>view details</h4></span>
-                  <span class="float-right">
-                    <i class="fas fa-angle-right"></i>
-                  </span>
-                </a>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-      <div id="content-wrapper" style="margin-top: -33rem;width:60rem;float:right;">
-          <div class="row">
-              <div class="col-xl-6" style="margin-left:28rem;height:200px;margin-top:2rem;">
-                <div class="card text-white bg-primary o-hidden h-100">
-                  <div class="card-body">
-                    <div class="card-body-icon">
-                      <i class="fas fa-user-md"></i>
-                    </div>
-                    <div class="mr-5"><h2>Animals Identification</h2></div>
-                  </div>
-                  <a class="card-footer text-white clearfix small z-1" href="model3.php">
-                    <span class="float-left"><h4>view details</h4></span>
-                    <span class="float-right">
-                      <i class="fas fa-angle-right"></i>
-                    </span>
-                  </a>
-                  </div>
-                </div> 
-              </div>
-              <div class="col-xl-6" style="margin-left:28rem;height:200px;margin-top:6rem;">
-                  <div class="card text-white bg-primary o-hidden h-100">
-                    <div class="card-body">
-                      <div class="card-body-icon">
-                        <i class="fas fa-user-md"></i>
-                      </div>
-                      <div class="mr-5"><h2>Animals Identification</h2></div>
-                    </div>
-                    <a class="card-footer text-white clearfix small z-1" href="model4.php">
-                      <span class="float-left"><h4>view details</h4></span>
-                      <span class="float-right">
-                        <i class="fas fa-angle-right"></i>
-                      </span>
-                    </a>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>    
+<!-- Sidebar -->
+<ul class="sidebar navbar-nav">
+<li class="nav-item active"style="font-">
+  <a class="nav-link" href="dashboard.php">
+    <i class="fas fa-fw fa-tachometer-alt" style="color:red;"></i>
+    <span style="color:white;">Dashboard</span>
+  </a>
+</li>
+<li class="nav-item active">
+  <a class="nav-link" href="herdmanagement1.php">
+  <i class="fas fa-seedling" style="color:red;"></i>
+    <span style="color:white;">Herd Management</span>
+  </a>
+</li>
+<li class="nav-item active">
+    <a class="nav-link" href="feed1.php">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span style="color:white;">Feed and Feeding<br>Management</span>
+    </a>
+</li>
+<li class="nav-item active">
+  <a class="nav-link" href="young1.php">
+    <i class="fas fa-fw fa-tachometer-alt"></i>
+    <span style="color:white;">calf<br>Management</span>
+  </a>
+  </li>
+  <li class="nav-item active">
+    <a class="nav-link" href="milk.php">
+    <i class="fas fa-blender" style="color:red;"></i>
+      <span style="color:white;">Milk production</span>
+    </a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="health.php">
+  <i class="fas fa-stethoscope"style="color:red;"></i>
+    <span style="color:white;">Health and Hygience<br> management</span>
+  </a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="dairyfarm.php">
+    <i class="fas fa-prescription"></i>
+    <span style="color:white;">Dairy farm record</span>
+  </a>
+</li>
+</div>
+     
           
 
       

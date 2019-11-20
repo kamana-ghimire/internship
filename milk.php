@@ -1,4 +1,5 @@
-!DOCTYPE html>
+<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +17,7 @@
 <div>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark static-top">
 <a class="navbar-brand" href="#">
-        Logo
+        Farm House
 </a>
 <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
   <i class="fas fa-bars"></i>
@@ -52,81 +53,46 @@
 <!-- Sidebar -->
 <ul class="sidebar navbar-nav">
 <li class="nav-item active">
-  <a class="nav-link" href="#">
-    <i class="fas fa-fw fa-tachometer-alt"></i>
-    <span>Dashboard</span>
+  <a class="nav-link" href="dashboard.php">
+      <i class="fas fa-fw fa-tachometer-alt" style="color:red;"></i>
+    <span style="color:white;">Dashboard</span>
   </a>
 </li>
 <li class="nav-item active">
   <a class="nav-link" href="herdmanagement1.php">
-    <i class="fas fa-sitemap"></i>
-    <span>Herd Management</span>
+      <i class="fas fa-seedling" style="color:red;"></i>
+    <span style="color:white;">Herd Management</span>
   </a>
 </li>
 <li class="nav-item active">
     <a class="nav-link" href="feed1.php">
       <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Feed and Feeding<br>Management</span>
+      <span style="color:white;">Feed and Feeding<br>Management</span>
     </a>
 
 </li>
 <li class="nav-item active">
-    <a class="nav-link" href="feed1.php">
+    <a class="nav-link" href="young1.php">
       <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Young stock<br>Management</span>
+      <span style="color:white;">Calf<br>Management</span>
     </a>
   </li>
   <li class="nav-item active">
-    <a class="nav-link" href="feed1.php">
-      <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Milk production</span>
+    <a class="nav-link" href="milk.php">
+        <i class="fas fa-blender" style="color:red;"></i>
+      <span style="color:white;">Milk production</span>
     </a>
 </li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="appointmentsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-stethoscope"></i>
-    <span>Fertility management</span>
-  </a>
-</li>
 <li class="nav-item">
-  <a class="nav-link" href="#">
-    <i class="fas fa-prescription"></i>
-    <span>Health management</span></a>
+  <a class="nav-link" href="health.php">
+      <i class="fas fa-stethoscope"style="color:red;"></i>
+    <span style="color:white;">Health and Hygence management</span></a>
 </li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="labtestDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-notes-medical"></i>
-    <span>Housing and manure management</span>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="labtestDropdown">
-    <a class="dropdown-item" href="#">Lab Reports</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Add Lab Reports</a>
-  </div>
-</li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="medicineDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-briefcase-medical"></i>
-    <span>Milk processing and <br>marketing</span>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="medicineDropdown">
-    <a class="dropdown-item" href="#">Medicine List</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Add Medicine</a>
-  </div>
-</li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="donorDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-user-friends"></i>
-    <span>Diry farm record</span>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="donorDropdown">
-    <a class="dropdown-item" href="#">List of Donors</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Blood Bank</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Add Donors</a>
-  </div>
+<li class="nav-item active">
+    <a class="nav-link" href="dairyfarm.php">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span style="color:white;">Dairy Record</span>
+    </a>
 </li>
 </ul>
 <div id="content-wrapper">
@@ -134,101 +100,61 @@
         <div class ="container-fluid">
 <table>
   <tr>
-    <th rowspan="3">Cow Name<br>ID NO</th>
-    <th rowspan="3">Lactation start<br>day</th>
-    <th rowspan="3">Type Breed<br>type</th>
-    <th colspan="8">Milk yield per<br>day in liter</th>
-    <!-- <th colspan="4">lactation period</th>
-    <th colspan="4">Calf get birth</th>
-    <th colspan="4">Yeild per lactation<br>period</th>
-    <th colspan="2">Age when<br>culled</th>
-    <th colspan="2">Date of sales/<br>Death</th> -->
+    <th rowspan="2"> Name<br>ID NO</th>
+    <th rowspan="2">Date</th>
+    <th colspan="2">Quantity</th>
+    <th colspan="4">Quality</th>
 
   </tr>
-  <th colspan="2">Date</th>
-    <th colspan="2">Date</td>
-    <th colspan="2">Date</th>
-    <th colspan="2">Date</th>
+  <th colspan="1">morning</th>
+    <th colspan="1">Evening</td>
+  <th colspan="1">Fat</th>
+    <th colspan="1">Lacto</th>
 </tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
 </tr>
-  <th colspan="1">Morning yield</th>
-    <th colspan="1">Evening yield</th>
-    <th colspan="1">Morning yield</th>
-    <th colspan="1">Evening yield</th>
-    <th colspan="1">Morning yield</th>
-    <th colspan="1">Evening yield</th>
-    <th colspan="1">Morning yield</th>
-    <th colspan="1">Evening yield</th>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  
 </tr>
 
-   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
 </table>
-<button type="button" class="btn btn-outline-light btn-dark button" style="margin-left:16rem;margin-top:-39rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
+<button type="button" class="btn btn-outline-light btn-dark button" style="margin-left:59rem;margin-top:-30rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
      <div class="modal fade" id="addanimalid" tabindex="-1" role="dialog" aria-labelledby="deptModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">

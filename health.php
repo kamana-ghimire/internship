@@ -71,7 +71,7 @@
 
 </li>
 <li class="nav-item active">
-    <a class="nav-link" href="young.php">
+    <a class="nav-link" href="young1.php">
       <i class="fas fa-fw fa-tachometer-alt"></i>
       <span style="color:white;">Calf<br>Management</span>
     </a>
@@ -87,13 +87,14 @@
 <li class="nav-item active">
     <a class="nav-link" href="health.php">
     <i class="fas fa-stethoscope"style="color:red;"></i>
-      <span style="color:white;">Health and Hygrncec<br>Management</span>
+      <span style="color:white;">Health and Hygence<br>Management</span>
     </a>
+
 </li>
 <li class="nav-item active">
     <a class="nav-link" href="dairyfarm.php">
       <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span style="color:white;">Dairy farm Record</span>
+      <span style="color:white;">Dairy Farm Record</span>
     </a>
 
 </li>
@@ -101,41 +102,59 @@
 <div id="content-wrapper">
     <div class="jumbotron jumbotron-fluid">
         <div class ="container-fluid">
-<table>
+
+        <table>
+  <tr>
+    <th rowspan="1">Name<br>ID NO</th>
+    <th colspan="1">Date</th>
+    <th colspan="1">Medicene</th>
+    <th colspan="1">Medicene cost</th>
+    <th colspan="1">Doctor fee</th>
+  </tr>
+  <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+</tr>
 <tr>
-        <th rowspan="1">Name<br>ID NO</th>
-        <th rowspan="1">Quantity(ltrs)</th>
-        <th rowspan="1">price</th>
-        <th rowspan="1">Contact details</th>
-    </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+</tr>
+<tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+</tr>
+<tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+</tr>
+<tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+</tr>
+ 
 
 
 </table>
-<button type="button" class="btn btn-outline-light btn-dark button" style="margin-left:58rem;margin-top:-26rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     <button type="button" class="btn btn-outline-light btn-dark button" style="margin-left:74rem;margin-top:-56rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
      <div class="modal fade" id="addanimalid" tabindex="-1" role="dialog" aria-labelledby="deptModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -204,4 +223,4 @@
         })(jQuery); // End of use strict
       </script>
 </body>
-</html>        
+</html>

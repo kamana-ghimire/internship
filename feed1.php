@@ -16,7 +16,7 @@
 <div>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark static-top">
 <a class="navbar-brand" href="#">
-        Logo
+        Farm House
 </a>
 <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
   <i class="fas fa-bars"></i>
@@ -52,96 +52,46 @@
 <!-- Sidebar -->
 <ul class="sidebar navbar-nav">
 <li class="nav-item active">
-  <a class="nav-link" href="#">
-    <i class="fas fa-fw fa-tachometer-alt"></i>
-    <span>Dashboard</span>
+  <a class="nav-link" href="dashboard.php">
+  <i class="fas fa-fw fa-tachometer-alt" style="color:red;"></i>
+    <span style="color:white;">Dashboard</span>
   </a>
 </li>
 <li class="nav-item active">
   <a class="nav-link" href="herdmanagement1.php">
-    <i class="fas fa-sitemap"></i>
-    <span>Herd Management</span>
+  <i class="fas fa-seedling" style="color:red;"></i>
+    <span style="color:white;">Herd Management</span>
   </a>
 </li>
 <li class="nav-item active">
     <a class="nav-link" href="feed1.php">
       <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Feed and Feeding<br>Management</span>
+      <span style="color:white;">Feed and Feeding<br>Management</span>
     </a>
+
 </li>
-<<li class="nav-item active">
-    <a class="nav-link" href="feed1.php">
+<li class="nav-item active">
+    <a class="nav-link" href="young1.php">
       <i class="fas fa-fw fa-tachometer-alt"></i>
-      <span>Young stock<br>Management</span>
+      <span style="color:white;">Calf<br>Management</span>
     </a>
   </li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="patientsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-user-injured"></i>
-    <span>Milk production</span>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="patientsDropdown">
-    <a class="dropdown-item" href="#">List of Patients</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Patient Cases</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Add Patients</a>
-  </div>
-</li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="appointmentsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-stethoscope"></i>
-    <span>Fertility management</span>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="appointmentsDropdown">
-    <a class="dropdown-item" href="#">All Appointments</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Today's Appointments</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Upcoming Appointments</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Add Appointments</a>
-  </div>
+  <li class="nav-item active">
+    <a class="nav-link" href="milk.php">
+    <i class="fas fa-blender" style="color:red;"></i>
+      <span style="color:white;">Milk production</span>
+    </a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="#">
-    <i class="fas fa-prescription"></i>
-    <span>Health management</span></a>
+  <a class="nav-link" href="health.php">
+  <i class="fas fa-stethoscope"style="color:red;"></i>
+    <span style="color:white;">Health and Hygence management</span></a>
 </li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="labtestDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-notes-medical"></i>
-    <span>Housing and manure management</span>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="labtestDropdown">
-    <a class="dropdown-item" href="#">Lab Reports</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Add Lab Reports</a>
-  </div>
-</li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="medicineDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-briefcase-medical"></i>
-    <span>Milk processing and <br>marketing</span>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="medicineDropdown">
-    <a class="dropdown-item" href="#">Medicine List</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Add Medicine</a>
-  </div>
-</li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="donorDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    <i class="fas fa-user-friends"></i>
-    <span>Diry farm record</span>
-  </a>
-  <div class="dropdown-menu" aria-labelledby="donorDropdown">
-    <a class="dropdown-item" href="#">List of Donors</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Blood Bank</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Add Donors</a>
-  </div>
+<li class="nav-item active">
+    <a class="nav-link" href="dairyfarm.php">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span style="color:white;">Dairy Record</span>
+    </a>
 </li>
 </ul>
 <div id="content-wrapper">
@@ -149,106 +99,39 @@
         <div class ="container-fluid">
 <table>
   <tr>
-    <th rowspan="2">Type of<br>Feed</th>
-    <th rowspan="2">Unite of<br>measurement</th>
-    <th colspan="8">Feed In take per day per cattle</th>
-    <!-- <th colspan="4">lactation period</th>
-    <th colspan="4">Calf get birth</th>
-    <th colspan="4">Yeild per lactation<br>period</th>
-    <th colspan="2">Age when<br>culled</th>
-    <th colspan="2">Date of sales/<br>Death</th> -->
-
+    <th rowspan="1">Name<br>ID</th>
+    <th rowspan="1">Forage</th>
+    <th rowspan="1">Concentrated</th>
+    <th rowspan="1">Extra supplement</th>
   </tr>
   <tr>
-    <th colspan="2">Cattle 1</th>
-    <th colspan="2">Cattle 2</td>
-    <th colspan="2">Cattle 3</th>
-    <th colspan="2">Cattle 4</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
   
-    
-    
-  </tr>
-  
-  <tr>
-    <td></td>
-    <td></td>
-    <th>Name/ID</th>
-    <th>Quantityt</th>
-    <th>hName/ID</th>
-    <th>Quantity</th>
-    <th>Name/ID</th>
-    <th>Quantity</th>
-    <th>Name/ID</th>
-    <th>Quantity</th>
-    
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    
-
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
+ 
 </table>
-<button type="button" class="btn btn-outline-light btn-dark button" style="margin-top:2rem" data-toggle="modal" data-target="#addanimalid">Add new</button>
+<button type="button" class="btn btn-outline-light btn-dark button" style="margin-top:-26rem;margin-left:58rem;" data-toggle="modal" data-target="#addanimalid">Add new</button>
      <div class="modal fade" id="addanimalid" tabindex="-1" role="dialog" aria-labelledby="deptModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -262,15 +145,33 @@
             <div>
               <form action="">
                 <div class="form-group">
-                  <label for="departtname">Date of birth/<br>purchase</label>
+                  <label for="departtname">Name ID</label>
                   <input type="text" id="departtname1" name="dname" class="form-control">
                 </div>
                 <div class="form-group">
-                  <label for="departtname">Date of sales/Death</label>
-                  <input type="text" id="calving2" name="dname" class="form-control">
+                  
+                  <label for="departtname">Forage</label>
+                  <select class="form-control" id="items">
+                                        <option>Crop</option>
+                                        <option>Hay</option>
+                                        <option>Grass</option>
+                                    </select>
+
+              
                 </div>
                 <div class="form-group">
-                    <label for="departtdesc">Type of breed</label>
+                    <label for="departtdesc">Concentrated</label>
+                    <select class="form-control" id="items">
+                                        <option>Pitho</option>
+                                        <option>Dana</option>
+                                        <option>Chatni</option>
+                                        <option>Cake</option>
+                                        <option>Sailsge(nutrious diet)</option>
+                                    </select>
+                  
+                </div>
+                <div class="form-group">
+                    <label for="departtdesc">Extra supplement</label>
                     <input type="text" id="calving1" name="dname" class="form-control">
                 </div>
               </form>
@@ -283,6 +184,7 @@
         </div>
       </div>
     </div>
+    
 
      
                 <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
