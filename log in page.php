@@ -9,44 +9,95 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <style>
-        .container-fluid {
-            padding: 0;
-        }
-    </style>
+  .error{
+    color: red;
+    margin-left:4rem;
+  }
+  input:not(:placeholder-shown) {
+  border-color: hsl(0, 76%, 50%);;
+}
+
+/* Show green borders when valid */
+input:valid {
+  border-color: hsl(120, 76%, 50%);
+}
+  </style>
 </head>   
 <body>
-<div class="container-fluid">
-    <div class="p-3 md-2 text-white">
-        <div class="row">
-            <div class="col-md-12"style="  background-image:url('picture/green.jpg')">
-                <img src="picture/gradient.jpg"style="width: 57rem;margin-left: 12rem;">
-             </div>
+    <div class="container-fluid">
+        <div class="p-3 md-2 text-white">
+            <img src="picture/color2.jpg"style="width:100%;height:100%;">
         </div>
     </div>
-    <div class="card" style="width:361px;margin-left:611px;margin-top:-25rem;
-        background-color:#14A7;">
-        <form action="action_page.php">
-        <h1 style="margin-left:5rem;color:white;">Sign Up</h1>
-        <br>
-        <label for="Username" style="margin-left:5rem;color:white;"><b>username</b></label>
-        <input type="text" placeholder="Enter username" name="Username" required style="border-color: #080a4e;">
-        <br><br>
-        <label for="psw" style="margin-left:5rem;color:white;"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required style="border-color: #080a4e;">
-        <br>
-        <div class="clearfix">
-            <button type="button" class="cancelbtn"style="margin-left: 5rem;border-color: #080a4e;background-color: #F79E02;
-            margin-top: 2rem;color:black;font-weight:bold;">Sign Up</button>
-        </form>
-        </div>
-    </div>
-    <div class="card"style="margin-left:355px;width: 257px;background-color:#14A7;margin-top: -16rem;
-        height: 16rem;">
-        <!-- <h1 style="margin-top: 6rem;margin-left: 7rem;color:white;">logo</h1> -->
-        <img src="picture/cows.png"style="margin-top: 2rem;margin-left: 3rem;width: 13rem;">
-    </div>
-    </div>
+    <div class="card" style="width:640px;margin-left:365px;margin-top:-558px;background-color:white;height:32rem;">
+        <form id="basic-form" action="" method="post">
+        <h1 style=margin-left:9rem;margin-top:6px;>CREATE ACCOUNT</h1><br>
+        <p>
+        <input id="name" name="name" placeholder="Your Name" minlength="3" type="text" required style="margin-left:4rem;width:75%;"><br><br>
+        </p>
+        <p>
+        <input id="email" type="email" placeholder="Your Email" name="email" required style="margin-left:4rem;width:75%;"><br><br>
+        </p>
+        <p>
+        <input id="password" type="password" placeholder="Your Password"minlength="8" name="password" required  style="margin-left:4rem;width:75%;"><br><br>
+        </p>
+        <p>
+        <input id="password" type="password" placeholder="Confirm Password" minlength="8" name="password1" required  style="margin-left:4rem;width:75%;"><br><br>
+        </p>
+        <input type="checkbox" name="en" value="en" checked style="margin-left:4rem;" /><span>I agree all statements in Terms of Services</span style="margin-left:4rem;"><br><br>
+
+        <p>
+        <input class="SIGN UP" type="submit" value="SIGN UP"style="margin-left:4rem;width:75%;background-color:cadetblue;font-size:15pt;">
+        </p>
+        <p style="margin-top:2rem;margin-left: 9rem;"><b>Have already an account?<b> <b><u>Login here</u><b></p>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#basic-form").validate({
+				rules: {
+					name : {
+						required: true,
+						minlength: 3
+					},
+
+		
+					email: {
+						required: true,
+						email: true
+					},
+                    password : {
+						required: true,
+						minlength: 8
+					},
+					
+						number: true,
+						min: 0
+					}
+				},
+				messages : {
+					name: {
+						minlength: "Name should be at least 3 characters"
+					},
+					
+					email: {
+						email: "The email should be in the format: abc@domain.tld"
+					},
+                    password: {
+						minlength: "password should be at least 8 characters"
+					},
+                }
+					
+				}
+			});
+		});
+	</script>
+</body>
+</html> 
    
 
                             
